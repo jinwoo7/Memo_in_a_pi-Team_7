@@ -1,0 +1,196 @@
+/*
+    Memo In REST API
+    Virginia Tech - Network application
+    Team: The Front Seaters
+    Members: Jinwoo Yom, Josh Chung, Jisu Park, Ian Clark
+    Description: This is our main stlying css.
+*/
+
+/* --------------------------------- */
+/* BASIC SETUP*/
+/* --------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+html,
+body {
+    background-color: #FFA500;
+    color: #f0ffff;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    overflow-x:hidden;
+    overflow: auto;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* --------------------------------- */
+/* RESUABLE COMPONENTS */
+/* --------------------------------- */
+
+.row{
+    width: 600px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+.box {
+    padding: 1%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display:block;
+}
+
+cite img {
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* ----- HEADINGS ------ */
+
+
+
+h1, h2, h3 {
+    font-weight: 310;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    margin-top: 0px;
+    word-spacing: 4px;
+}
+
+.name {
+    font-size: 380%;
+}
+
+.desc {
+    font-weight: 300;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+a:link .wrap {
+    font-weight: 310;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #fff;
+    margin-top: 0px;
+    word-spacing: 4px;
+    font-weight: 300;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/* ----- PARAGRAPHS ------ */
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    text-align: center;
+}
+
+/* --------------------------------- */
+/* Main Page */
+/* --------------------------------- */
+header {
+    
+}
+
+header .logo {
+    background-color:rgba(226, 255, 0, 0.15);
+    text-align: center;
+    border-bottom: 4px solid #660000;
+}
+
+form { 
+    background: #000;
+    padding: 3px; 
+    position:inherit; 
+    bottom: 0; 
+    width: 600px;
+    margin: auto auto;
+    height: 100px
+}
+
+form input { 
+    border: 0; 
+    padding: 10px; 
+    width: 89%; 
+    margin-right: .5%; 
+}
+
+form button { 
+    width: 10%; 
+    background: #ff6600;
+    color: #660000;
+    border: none; 
+    padding: 10px; 
+}
+
+#messages {
+    list-style-type: none; 
+    margin: auto auto; 
+    position:inherit;
+}
+
+#messages li { 
+    border: #333 solid 2px;
+    width: 600px;
+    height: inherit;
+    padding: 5px 10px; 
+    word-wrap: break-word;
+    margin:auto;
+}
+
+#messages li:nth-child(odd) { 
+    background: #8B0000; 
+}
